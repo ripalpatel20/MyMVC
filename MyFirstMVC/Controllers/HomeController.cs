@@ -16,7 +16,7 @@ namespace MyFirstMVC.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            print("ripal");
             return View();
         }
 
